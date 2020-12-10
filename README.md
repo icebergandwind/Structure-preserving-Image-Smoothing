@@ -1,5 +1,8 @@
 # Structure-preserving-Image-Smoothing
 
+High-Level ideas
+![Illustration](/results/illustration.png)
+
 Please cite the following paper if it helps your research:
 
       @article{ding2014structure,
