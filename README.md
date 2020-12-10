@@ -28,28 +28,28 @@ Please cite the following paper if it helps your research:
       }
 
 # Applications:
-## Denoising
+## 1. Denoising
 ![Denoising_1D](/results/1D_example.png)
 ![Denoising_2D](/results/denoising.png)
 
-## JPEG Artifact Removal
+## 2. JPEG Artifact Removal
 ![JPEG_1](/results/jpeg_artfacts_removal_1.png)
 ![JPEG_2](/results/jpeg_artfacts_removal_2.png)
 ![JPEG_3](/results/quantitative_results_of_jpeg_artifacts_removal.png)
 
-## Boundary Extraction
+## 3. Boundary Extraction
 ![boundary_extraction](/results/canny_boundary_extraction.png)
 
-## Non-realistic Photo Abstraction
+## 4. Non-realistic Photo Abstraction
 ![abstraction](/results/nonphotorealistic_rendering.png)
 
-## Image Composition
+## 5. Image Composition
 ![composition](/results/photo_composition.png)
 
-## HDR Tone Mapping
+## 6. HDR Tone Mapping
 ![hdr](/results/hdr_tonemaping.png)
 
-## Colorization
+## 7. Colorization
 ![manga](/results/colorization_1.png)
 ![sketch](/results/colorization_2.png)
 
