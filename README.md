@@ -34,7 +34,7 @@ Please cite the following paper if it helps your research:
 
 ## JPEG Artifact Removal
 ![JPEG_1](/results/jpeg_artfacts_removal_1.png)
-![JPEG_2](/results/jpeg_artifacts_removal_2.png)
+![JPEG_2](/results/jpeg_artfacts_removal_2.png)
 ![JPEG_3](/results/quantitative_results_of_jpeg_artifacts_removal.png)
 
 ## Boundary Extraction
