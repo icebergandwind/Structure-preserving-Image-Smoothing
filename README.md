@@ -3,7 +3,9 @@
 High-Level ideas
 ![Illustration](/results/illustration.png)
 
-![Gradient_Map](/results/)
+![Gradient_Map](/results/gradient_map.png)
+
+Compa
 
 Algorithms
 ![Algorithm](/results/algorithm.png)
