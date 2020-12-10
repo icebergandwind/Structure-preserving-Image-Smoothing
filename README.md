@@ -1,14 +1,18 @@
 # Structure-preserving-Image-Smoothing
 
-High-Level ideas
+# High-Level ideas
 ![Illustration](/results/illustration.png)
 
 ![Gradient_Map](/results/gradient_map.png)
 
-Compa
+![example](/results/extract_structure.png)
 
-Algorithms
+# Comparisons
+![compare](/results/math.png)
+
+# Algorithms
 ![Algorithm](/results/algorithm.png)
+![Convergence](/results/convergence.png)
 
 Please cite the following paper if it helps your research:
 
@@ -23,14 +27,15 @@ Please cite the following paper if it helps your research:
         publisher={Science China Press}
       }
 
-Applications:
+# Applications:
 ## Denoising
 ![Denoising_1D](/results/1D_example.png)
 ![Denoising_2D](/results/denoising.png)
 
 ## JPEG Artifact Removal
 ![JPEG_1](/results/jpeg_artfacts_removal_1.png)
-![JPEG_2](results/jpeg_artifacts_removal_2.png)
+![JPEG_2](/results/jpeg_artifacts_removal_2.png)
+![JPEG_3](/results/quantitative_results_of_jpeg_artifacts_removal.png)
 
 ## Boundary Extraction
 ![boundary_extraction](/results/canny_boundary_extraction.png)
