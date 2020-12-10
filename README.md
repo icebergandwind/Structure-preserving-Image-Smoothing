@@ -3,6 +3,11 @@
 High-Level ideas
 ![Illustration](/results/illustration.png)
 
+![Gradient_Map](/results/)
+
+Algorithms
+![Algorithm](/results/algorithm.png)
+
 Please cite the following paper if it helps your research:
 
       @article{ding2014structure,
@@ -15,3 +20,29 @@ Please cite the following paper if it helps your research:
         year={2014},
         publisher={Science China Press}
       }
+
+Applications:
+## Denoising
+![Denoising_1D](/results/1D_example.png)
+![Denoising_2D](/results/denoising.png)
+
+## JPEG Artifact Removal
+![JPEG_1](/results/jpeg_artfacts_removal_1.png)
+![JPEG_2](results/jpeg_artifacts_removal_2.png)
+
+## Boundary Extraction
+![boundary_extraction](/results/canny_boundary_extraction.png)
+
+## Non-realistic Photo Abstraction
+![abstraction](/results/nonphotorealistic_rendering.png)
+
+## Image Composition
+![composition](/results/photo_composition.png)
+
+## HDR Tone Mapping
+![hdr](/results/hdr_tonemaping.png)
+
+## Colorization
+![manga](/results/colorization_1.png)
+![sketch](/results/colorization_2.png)
+
