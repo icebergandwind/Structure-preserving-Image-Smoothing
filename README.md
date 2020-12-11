@@ -15,13 +15,15 @@ Here is another example that illustrates the power of the proposed method.
 Compared with other well-known methods, the proposed method can address all three concerns raised in image smoothing: Staircase Effect, Edge Blur and Structure Destroy.
 <img src="/results/math.png" width="900">
 
-## Object Function
-
+## Objective Function
+The energy functional minimization can be expressed as follows. Please Refer to the paper for how to solve this problem.
+<img src="/results/objective_function.png" width="400">
 
 ## Algorithms
 <img src="/results/algorithm.png" width="600">
 
 The following figure illustrates the convergence speed w.r.t two L0 based methods. Our method converges at 10 iterations with the lowest difference. Our matlba implementation takes 5 secs to process a single channel 400x600 image on a machine with Intel Core i5@CPU 2.27G.
+
 <img src="/results/convergence.png" width="400">
 
 Please cite the following paper if it helps your research:
