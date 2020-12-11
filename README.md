@@ -13,8 +13,8 @@
 # Algorithms
 ![Algorithm](/results/algorithm.png)
 
-The following figure illustrates the convergence speed w.r.t two L_0 based methods. Our method converges at 10 iterations with the lowest difference. Our matlba implementation takes 5 secs to process a single channel 400x600 image on a machine with Intel Core i5@CPU 2.27G.
-![Convergence](/results/convergence.png)
+The following figure illustrates the convergence speed w.r.t two L0 based methods. Our method converges at 10 iterations with the lowest difference. Our matlba implementation takes 5 secs to process a single channel 400x600 image on a machine with Intel Core i5@CPU 2.27G.
+![Convergence](/results/convergence.png=250x)
 
 Please cite the following paper if it helps your research:
 
