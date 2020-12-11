@@ -40,6 +40,8 @@ Please cite the following paper if it helps your research:
       }
 
 ## Applications:
+We demonstrated 7 applications of the proposed method in the following, details can be found in the paper.
+
 ### 1. Denoising
 ![Denoising_1D](/results/1D_example.png)
 ![Denoising_2D](/results/denoising.png)
