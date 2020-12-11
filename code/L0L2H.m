@@ -27,7 +27,7 @@ if D>1
     Denormin2 = repmat(Denormin2,[1,1,D]);
 end
 beta = 2*lambda;
-%r=1;
+
 while beta < betamax
     Denormin   = 1 + (beta+alpha).*Denormin2.*Denormin2;
     % h-v subproblem
