@@ -1,14 +1,22 @@
 # Structure-preserving-Image-Smoothing
+Image smoothing is a fundamental tool in computer graphics and image processing, whose major challenge is to smooth the input image while preserving its salient structure features. Recently, a piecewise smooth approach called L0 gradient minimization has been proposed for image smoothing. It employs gradient sparsity to achieve locally identical effect, which excels existing methods, making the visual performance more satisfying. However, methods based on L0 gradient minimization can easily cause staircase effect and lose part of structure. In this paper, we make the best of L0 gradient minimization and gradient fidelity term to present a new smoothing method. Our method can maintain the main structure of the image and restrain the staircase effect to make the gradient smoother. The essential structure in similar RGB values is preserved as well. Experimental results illustrate that our method applies widely, and particularly beneficial to image composition, edge detection and clip-art JPEG artifact removal, etc.
 
 ## High-Level ideas
+The proposed method can remove unnecessary details while miantaining the salient structures. The following is a 1D scanline example.
 <img src="/results/illustration.png" width="1000">
 
+To better illustrate the power of the proposed, we also can see the gradient map in the following image where different structure may have similar colors in nearby regions. The proposed method can detect the structures compared with other L0 base methods.
 ![Gradient_Map](/results/gradient_map.png)
 
+Here is another example that illustrates the power of the proposed method.
 ![example](/results/extract_structure.png)
 
 ## Comparisons
+Compared with other well-known methods, the proposed method can address all three concerns raised in image smoothing: Staircase Effect, Edge Blur and Structure Destroy.
 <img src="/results/math.png" width="900">
+
+## Object Function
+
 
 ## Algorithms
 <img src="/results/algorithm.png" width="600">
