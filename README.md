@@ -1,7 +1,7 @@
 # Structure-preserving-Image-Smoothing
 
 # High-Level ideas
-![Illustration](/results/illustration.png)
+<img src="/results/illustration.png" width="1000">
 
 ![Gradient_Map](/results/gradient_map.png)
 
