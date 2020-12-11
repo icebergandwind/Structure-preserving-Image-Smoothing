@@ -8,7 +8,7 @@
 ![example](/results/extract_structure.png)
 
 # Comparisons
-![compare](/results/math.png)
+<img src="/results/math.png" width="900">
 
 # Algorithms
 <img src="/results/algorithm.png" width="600">
