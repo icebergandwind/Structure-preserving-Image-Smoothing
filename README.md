@@ -1,4 +1,25 @@
 # Structure-preserving-Image-Smoothing
+
+This is the offical repository for  
+
+**Structure-preserving image smoothing with L0 gradient mini-mization coupling gradient fidelity term**  
+[Zhipeng Ding](https://biag.cs.unc.edu/author/zhipeng-ding/), Shaoxiong Zhang, Jiazhou Chen, Qunsheng Peng, Zhangye Wang  
+Conference: *Chinagraph 2014* Journal: *Science China* [eprint](https://github.com/icebergandwind/Structure-preserving-Image-Smoothing/blob/main/paper/Structure-preserving%20image%20smoothing%20with%20L0%20gradient%20minimization%20coupling%20gradient%20fidelity%20term.pdf)  
+
+Please cite the following paper if it helps your research:
+```
+@article{ding2014structure,
+  title={Structure-preserving image smoothing with L 0 gradient mini-mization coupling gradient fidelity term},
+  author={DING, ZhiPeng and ZHANG, ShaoXiong and CHEN, JiaZhou and PENG, QunSheng and WANG, ZhangYe},
+  journal={SCIENTIA SINICA Informationis},
+  volume={44},
+  number={11},
+  pages={1370--1384},
+  year={2014},
+  publisher={Science China Press}
+}
+```
+
 Image smoothing is a fundamental tool in computer graphics and image processing, whose major challenge is to smooth the input image while preserving its salient structure features. Recently, a piecewise smooth approach called L0 gradient minimization has been proposed for image smoothing. It employs gradient sparsity to achieve locally identical effect, which excels existing methods, making the visual performance more satisfying. However, methods based on L0 gradient minimization can easily cause staircase effect and lose part of structure. In this paper, we make the best of L0 gradient minimization and gradient fidelity term to present a new smoothing method. Our method can maintain the main structure of the image and restrain the staircase effect to make the gradient smoother. The essential structure in similar RGB values is preserved as well. Experimental results illustrate that our method applies widely, and particularly beneficial to image composition, edge detection and clip-art JPEG artifact removal, etc.
 
 ## High-Level ideas
@@ -16,7 +37,7 @@ Compared with other well-known methods, the proposed method can address all thre
 <img src="/results/math.png" width="900">
 
 ## Objective Function
-The energy functional minimization can be expressed as follows. Please Refer to the paper for how to solve this problem.
+The energy functional minimization can be expressed as follows. Please Refer to the paper for how to solve this problem.  
 <img src="/results/objective_function.png" width="400">
 
 ## Algorithms
@@ -26,18 +47,6 @@ The following figure illustrates the convergence speed w.r.t two L0 based method
 
 <img src="/results/convergence.png" width="400">
 
-Please cite the following paper if it helps your research:
-
-      @article{ding2014structure,
-        title={Structure-preserving image smoothing with L 0 gradient mini-mization coupling gradient fidelity term},
-        author={DING, ZhiPeng and ZHANG, ShaoXiong and CHEN, JiaZhou and PENG, QunSheng and WANG, ZhangYe},
-        journal={SCIENTIA SINICA Informationis},
-        volume={44},
-        number={11},
-        pages={1370--1384},
-        year={2014},
-        publisher={Science China Press}
-      }
 
 ## Applications:
 We demonstrated 7 applications of the proposed method in the following, details can be found in the paper.
